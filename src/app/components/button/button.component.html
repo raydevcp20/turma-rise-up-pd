@@ -1,0 +1,25 @@
+<button *ngIf="type == 'default'" class="button default" (click)="handleClick()">
+    <img src="" alt="" >
+    {{text}}
+</button>
+
+<button *ngIf="type == 'success'" class="button success" (click)="handleClick()">
+    {{text}}
+</button>
+
+<!-- Usando ngClass -->
+<!-- <button 
+    class="button" 
+    [ngClass]="{
+        'default': type=='default', 
+        'danger': type=='danger', 
+        'success': type=='success'}" 
+    (click)="handleClick()">
+    {{text}}
+</button>
+
+<button 
+    class="button {{type}}" 
+    (click)="handleClick()">
+    {{text}}
+</button> -->

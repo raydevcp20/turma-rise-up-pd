@@ -1,0 +1,7 @@
+.list{
+    justify-content: center;
+    margin-top: 20px;
+    list-style: none;
+    background-color: beige;
+    padding: 0;
+}
